@@ -4,11 +4,6 @@
     padding: 0vw;
     margin: 0vw;
 }
-body{
-    background-image:url('images/stars.jpg');
-    background-size: cover;
-    background-position: center;
-}
 .navbar{
     border: 0.25vh solid black;
     background-color: #CDE8E6;
