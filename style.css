@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Itim&family=Playball&family=Yeseva+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Playball&display=swap');
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+body{
+    background-image:url('images/stars.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    border: 0.25vh solid black;
+    background-color: #CDE8E6;
+    height: 2vw;
+    padding: 1vw;
+}
+.productname{
+    float: left;
+    display: inline;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 1vw;
+    align: center;
+    font-family: 'Playball', cursive;
+}
+.linksgroup1 div{
+    margin-top: 0.25vw;
+}
+#home, #aboutus, #services, #cart{
+    font-family: 'Abril Fatface', cursive;
+    font-size: large;
+    transition: .4s;
+}
+#home:hover, #aboutus:hover, #services:hover, #cart:hover{
+    padding: .25vw;
+    font-size: large;
+    transition: .4s;
+    background-color: ivory;
+}
+.links1{
+    display: inline;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 1vw;
+}
+.links1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+.body{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.leftbox{
+    float: left;
+    border: 0.25vh solid black;
+    background-color: #ffe5ec;
+    padding: 1vw;
+    width: 8vw;
+    text-align: center;
+    width: 14vw;
+    height: 25vh;
+}
+.leftbox div, .leftbox span{
+    background-color: #ffe5ec;
+}
+.leftbox span {
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+.leftbox div{
+    padding: 1vh;
+}
+.links{
+    margin-top: .75vw;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Itim', cursive;
+    font-style: italic;
+}
+#flwro, #flwrs, #flwrp{
+    border: 0.1vh solid black;
+    padding: .5vh;
+    font-size: larger;
+    transition: .4s;
+    background-color: pink;
+    opacity: .8;
+}
+#flwro:hover, #flwrs:hover, #flwrp:hover{
+    opacity: 2;
+    padding: 0.5vw;
+    transition: .4s;
+    background-color: palevioletred;
+}
+#contentbox{
+    border: 0.3vh solid black;
+    margin-left: 17.3vw;
+    width: 60vw;
+    height: 70vh;
+    background-color: ivory;
+    font-family: 'Yeseva One', cursive;
+}
+#contentbox h1{
+    margin: 1.5vw;
+    background-color:ivory;
+    font-family: 'Yeseva One', cursive;
+}
+.flowers img{
+    position: relative;
+    left: 5vw;
+    top: .5vw;
+    width: 25vh;
+    padding: 0.5vh;
+    background-color: ivory;
+}
+#contentbox p{
+    position: relative;
+    top: 1vw;
+    float: right;
+    margin: 2.5vw;
+    background-color: ivory;
+    font-family: 'Itim', cursive;
+    font-size: 1.15vw;
+}
+#rightbox{
+    float: right;
+    border: 0.25vh solid black;
+    background-color: #ffe5ec;
+    position: relative;
+    bottom: 70.5vh;
+    width: 14vw;
+    height: 48vh;
+}
+#rightbox img{
+    width: 26.3vh;
+    padding: 2vh;
+    background-color: #ffe5ec;
+}
+#funfact{
+    text-align: center;
+    margin: 0.5vw;
+    background-color: #ffe5ec;
+    font-style: italic;
+}
